@@ -8,7 +8,7 @@ models, with support for adding custom examples and tools.
 To install from the latest release, run:
 
 ```sh
-curl https://raw.githubusercontent.com/SpellcraftAI/llmshell/refs/heads/master/install.sh | bash
+curl https://readme.llmshell.com/install | bash
 ```
 
 This will install from `llmshell.tar.gz` and add to your system PATH. 
