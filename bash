@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-LATEST=v1.0.7
+LATEST=v1.0.8
 VERSION="${1:-$LATEST}"
 
 if [[ ${OS:-} = Windows_NT ]]; then
