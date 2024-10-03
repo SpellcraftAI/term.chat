@@ -28,13 +28,13 @@ Once you've installed the program, you can use it by running `llmshell`.
 First, install `ai` and `zod` into your llmshell config directory:
 
 ```sh
-cd ~/.config/llmshell && bun i ai zod
+cd ~/llmshell && bun i ai zod
 ```
 
 You can then define your custom tools:
 
 ```ts
-// ~/.config/llmshell/tools.ts
+// ~/llmshell/tools.ts
 import { tool, type CoreTool } from "ai"
 import { z } from "zod"
 
@@ -53,7 +53,7 @@ export default {
 
 ### Adding custom examples
 
-Custom examples are loaded from `~/.config/llmshell/examples/*.jsonl`.
+Custom examples are loaded from `~/llmshell/examples/*.jsonl`.
 
 ## Source code
 
