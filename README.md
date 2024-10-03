@@ -8,7 +8,7 @@ models, with support for adding custom examples and tools.
 To install from the latest release, run:
 
 ```sh
-curl https://readme.llmshell.com/install | bash
+curl https://install.llmshell.com/bash | bash
 ```
 
 This will install from `llmshell.tar.gz` and add to your system PATH. 
