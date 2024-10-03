@@ -1,7 +1,7 @@
 # llmshell
 
 <!--  Image -->
-<img src="screenshot.png" style="padding-bottom: 2rem" height="540" width="auto">
+<img src="screenshot.png" style="padding-bottom: 2rem; max-height: 540px" width="auto">
 
 `llmshell` is a programmable terminal integration for OpenAI and Anthropic
 models, with support for adding custom examples and tools.
