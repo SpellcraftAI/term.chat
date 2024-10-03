@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-LATEST=$(curl --silent "https://api.github.com/repos/SpellcraftAI/llmshell/releases/latest" | jq -r .tag_name)
+LATEST=$(curl --silent "https://api.github.com/repos/SpellcraftAI/llmshell/releases/latest" | grep -o '"tag_name": "[^"]*"' | sed 's/"tag_name": "\(.*\)"/\1/')
 VERSION="${1:-$LATEST}"
 
 if [[ ${OS:-} = Windows_NT ]]; then
